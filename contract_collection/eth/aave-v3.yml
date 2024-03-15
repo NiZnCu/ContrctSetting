@@ -1,5 +1,5 @@
 chain: eth
-protocol: aave3
+protocol: aave-v3
 strategy:
 address: 
 token_category:
