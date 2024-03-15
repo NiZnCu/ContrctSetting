@@ -1,1 +1,6 @@
-
+chain: eth
+protocol: aave3
+strategy:
+address: 
+token_category:
+abi: 
