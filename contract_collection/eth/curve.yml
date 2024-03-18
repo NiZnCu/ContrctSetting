@@ -1,0 +1,35 @@
+chain: eth
+protocol: curve
+strategy: 
+address: 0x5f3b5dfeb7b28cdbd7faba78963ee202a494e2a2
+abi: eth/curve/locker.json
+
+chain: eth
+protocol: curve
+strategy: 
+address: 0xa464e6dcda8ac41e03616f95f4bc98a13b8922dc
+abi: eth/curve/feeDistributor.json
+
+chain: eth
+protocol: curve
+strategy: 
+address: 0xd2d43555134dc575bf7279f4ba18809645db0f1d
+abi: eth/curve/vesters-1.json
+
+chain: eth
+protocol: curve
+strategy: 
+address: 0x2a7d59e327759acd5d11a8fb652bf4072d28ac04
+abi: eth/curve/vesters-2.json
+
+chain: eth
+protocol: curve
+strategy: 
+address: 0x679fcb9b33fc4ae10ff4f96caef49c1ae3f8fa67
+abi: eth/curve/vesters-3.json
+
+chain: eth
+protocol: curve
+strategy: 
+address: 0x575ccd8e2d300e2377b43478339e364000318e2c
+abi: eth/curve/vesters-4.json
