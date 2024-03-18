@@ -1,0 +1,5 @@
+chain: bsc
+protocol: coinwind
+strategy: 
+address: 0x274c51cd70ba046fca5b11cf9439ea5ece60fec3
+abi: bsc/coinwind/masterChef.json
