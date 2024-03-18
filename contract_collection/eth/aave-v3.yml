@@ -3,25 +3,25 @@ protocol: aave-v3
 strategy:
 address: 0xba12222222228d8ba445958a75a0704d566bf2c8
 token_category:
-abi: aave-v3/balancer_vault.json
+abi: eth/aave-v3/balancer_vault.json
 
 chain: eth
 protocol: aave-v3
 strategy:
 address: 0x9eda81c21c273a82be9bbc19b6a6182212068101
 token_category:
-abi: aave-v3/stkAAVEwstETHBPTv2.json
+abi: eth/aave-v3/stkAAVEwstETHBPTv2.json
 
 chain: eth
 protocol: aave-v3
 strategy:
 address: 0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2
 token_category:
-abi: aave-v3/lendingPool.json
+abi: eth/aave-v3/lendingPool.json
 
 chain: eth
 protocol: aave-v3
 strategy:
 address: 0x7B4EB56E7CD4b454BA8ff71E4518426369a138a3
 token_category:
-abi: aave-v3/poolDataProvider.json
+abi: eth/aave-v3/poolDataProvider.json
