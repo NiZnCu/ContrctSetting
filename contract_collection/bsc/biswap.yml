@@ -1,0 +1,29 @@
+chain: bsc
+protocol: biswap
+strategy: 
+address: 0x965f527d9159dce6288a2219db51fc6eef120dd1
+abi: bsc/biswap/BSW.json
+
+chain: bsc
+protocol: biswap
+strategy: 
+address: 0x4c1ad5a67315d31f7a882c7d4b0e8d1a94c50255
+abi: bsc/biswap/locker.json
+
+chain: bsc
+protocol: biswap
+strategy: # AutoBSW
+address: 0x97A16ff6Fd63A46bf973671762a39f3780Cda73D
+abi: bsc/biswap/bswStaker.json
+
+chain: bsc
+protocol: biswap
+strategy: # Holder Pool AutoBSW
+address: 0xa4b20183039b2F9881621C3A03732fBF0bfdff10
+abi: bsc/biswap/bswStaker2.json
+
+chain: bsc
+protocol: biswap
+strategy: 
+address: 0xDbc1A13490deeF9c3C12b44FE77b503c1B061739
+abi: bsc/biswap/masterChef.json
