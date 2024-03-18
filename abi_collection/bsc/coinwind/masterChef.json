@@ -1,0 +1,434 @@
+[{
+	"anonymous": false,
+	"inputs": [{
+		"indexed": false,
+		"internalType": "uint256",
+		"name": "newImplementationsNum",
+		"type": "uint256"
+	}],
+	"name": "NewImplementations",
+	"type": "event"
+}, {
+	"anonymous": false,
+	"inputs": [{
+		"indexed": true,
+		"internalType": "address",
+		"name": "previousOwner",
+		"type": "address"
+	}, {
+		"indexed": true,
+		"internalType": "address",
+		"name": "newOwner",
+		"type": "address"
+	}],
+	"name": "OwnershipTransferred",
+	"type": "event"
+}, {
+	"stateMutability": "payable",
+	"type": "fallback"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"name": "TokenOfPid",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "callerAddress",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "checkCaller",
+	"outputs": [],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "checkController",
+	"outputs": [],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "checkGovernance",
+	"outputs": [],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "controller",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "token",
+		"type": "address"
+	}],
+	"name": "getPoolId",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "govTotalProfit",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "govTotalSendProfit",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "governance",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "hupPoolExtend",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"name": "implementations",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "max",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "migratorHub",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "owner",
+	"outputs": [{
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "paused",
+	"outputs": [{
+		"internalType": "bool",
+		"name": "",
+		"type": "bool"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"name": "poolInfo",
+	"outputs": [{
+		"internalType": "contract IERC20",
+		"name": "token",
+		"type": "address"
+	}, {
+		"internalType": "uint256",
+		"name": "lastRewardBlock",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "accMdxPerShare",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "govAccMdxPerShare",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "accMdxShare",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "totalAmount",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "totalAmountLimit",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "profit",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "earnLowerlimit",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "min",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "lastRewardBlockProfit",
+		"type": "uint256"
+	}, {
+		"components": [{
+			"internalType": "uint256",
+			"name": "accCowPerShare",
+			"type": "uint256"
+		}, {
+			"internalType": "uint256",
+			"name": "accCowShare",
+			"type": "uint256"
+		}, {
+			"internalType": "uint256",
+			"name": "blockCowReward",
+			"type": "uint256"
+		}, {
+			"internalType": "uint256",
+			"name": "blockMdxReward",
+			"type": "uint256"
+		}],
+		"internalType": "struct PoolCowInfo",
+		"name": "cowInfo",
+		"type": "tuple"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "poolLength",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "renounceOwnership",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "addr",
+		"type": "address"
+	}],
+	"name": "setCaller",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "_controller",
+		"type": "address"
+	}],
+	"name": "setController",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "_governance",
+		"type": "address"
+	}],
+	"name": "setGovernance",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address[]",
+		"name": "newImplementations",
+		"type": "address[]"
+	}],
+	"name": "setImplementations",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "setPause",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "address",
+		"name": "newOwner",
+		"type": "address"
+	}],
+	"name": "transferOwnership",
+	"outputs": [],
+	"stateMutability": "nonpayable",
+	"type": "function"
+}, {
+	"inputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}, {
+		"internalType": "address",
+		"name": "",
+		"type": "address"
+	}],
+	"name": "userInfo",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "amount",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "rewardDebt",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "govRewardDebt",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "tokenInfoDebt",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "cowDebt",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "historyReward",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "mdxProfit",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "cowProfit",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "mdxReward",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "cowReward",
+		"type": "uint256"
+	}, {
+		"internalType": "uint256",
+		"name": "lastDepostBlock",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "userTotalCowProfit",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "userTotalProfit",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "userTotalSendCowProfit",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}, {
+	"inputs": [],
+	"name": "userTotalSendProfit",
+	"outputs": [{
+		"internalType": "uint256",
+		"name": "",
+		"type": "uint256"
+	}],
+	"stateMutability": "view",
+	"type": "function"
+}]
