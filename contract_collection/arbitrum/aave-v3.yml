@@ -1,1 +1,20 @@
+chain: arbitrum
+protocol: aave-v3
+strategy:
+address: 0x794a61358D6845594F94dc1DB02A252b5b4814aD
+token_category:
+abi: arbitrum/aave-v3/lendingPool.json
 
+chain: arbitrum
+protocol: aave-v3
+strategy:
+address: 0x69fa688f1dc47d4b5d8029d5a35fb7a548310654
+token_category:
+abi: arbitrum/aave-v3/poolDataProvider.json
+
+chain: arbitrum
+protocol: aave-v3
+strategy:
+address: 0x929EC64c34a17401F460460D4B9390518E5B473e
+token_category:
+abi: arbitrum/aave-v3/incentiveController.json
