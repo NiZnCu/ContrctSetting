@@ -1,0 +1,17 @@
+chain: arbitrum
+protocol: compound-v3
+strategy: # cUSDCv3 through USDC Native version
+address: 0x9c4ec768c28520B50860ea7a15bd7213a9fF58bf
+abi: arbitrum/compound-v3/cUSDCv3_n.json 
+
+chain: arbitrum
+protocol: compound-v3
+strategy: # cUSDCv3 through USDC.e Bridged version
+address: 0xA5EDBDD9646f8dFF606d7448e414884C7d905dCA
+abi: arbitrum/compound-v3/cUSDCv3_b.json 
+
+chain: arbitrum
+protocol: compound-v3
+strategy:
+address: 0x88730d254A2f7e6AC8388c3198aFd694bA9f7fae
+abi: arbitrum/compound-v3/rewarder.json 
