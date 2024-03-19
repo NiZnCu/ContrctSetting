@@ -1,0 +1,11 @@
+chain: gnosis
+protocol: agave
+strategy: lending
+address: 0x5e15d5e33d318dced84bfe3f4eace07909be6d9c
+abi: gnosis/agave/lendingPool.json
+
+chain: gnosis
+protocol: agave
+strategy: staking
+address: 0x610525b415c1bfaeab1a3fc3d85d87b92f048221
+abi: gnosis/agave/staker.json
