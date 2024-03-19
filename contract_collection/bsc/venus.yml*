@@ -1,6 +1,6 @@
 chain: bsc
 protocol: venus
-strategy: 
+strategy: staking
 address: 0x595e9DDfEbd47B54b996c839Ef3Dd97db3ED19bA
 abi: bsc/venus/VenusLens.json
 
