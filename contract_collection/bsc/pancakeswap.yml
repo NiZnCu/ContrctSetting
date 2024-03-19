@@ -1,0 +1,53 @@
+chain: bsc
+protocol: pancakeswap
+strategy: 
+address: 0x45c54210128a065de780C4B0Df3d16664f7f859e
+abi: bsc/pancakeswap/stakerCake.json
+
+chain: bsc
+protocol: pancakeswap
+strategy: 
+address: 0xa683C30d47BCd31fB1399b80A4475bc960b903e3
+abi: bsc/pancakeswap/stakerCakeToZBC.json
+
+chain: bsc
+protocol: pancakeswap
+strategy: 
+address: 0xDe9FC6485b5f4A1905d8011fcd201EB78CF34073
+abi: bsc/pancakeswap/stakerCakeToArena.json
+
+chain: bsc
+protocol: pancakeswap
+strategy: 
+address: 0x7cE7A5C3241629763899474500D8db1fDFf1dab6
+abi: bsc/pancakeswap/stakerCakeToPrimal.json
+
+chain: bsc
+protocol: pancakeswap
+strategy: 
+address: 0x08C9d626a2F0CC1ed9BD07eBEdeF8929F45B83d3
+abi: bsc/pancakeswap/stakerCakeToSquad.json
+
+chain: bsc
+protocol: pancakeswap
+strategy: 
+address: 0x68Cc90351a79A4c10078FE021bE430b7a12aaA09
+abi: bsc/pancakeswap/stakerCakeToXcad.json
+
+chain: bsc
+protocol: pancakeswap
+strategy: 
+address: 0x365F744c8b7608253697cA2Ed561537B65a3438B
+abi: bsc/pancakeswap/stakerCakeToMgp.json
+
+chain: bsc
+protocol: pancakeswap
+strategy: 
+address: 0xa5f8C5Dbd5F286960b9d90548680aE5ebFf07652
+abi: bsc/pancakeswap/masterChef2.json
+
+chain: bsc
+protocol: pancakeswap
+strategy: # legacy masterchef
+address: 0x36bbb126e75351c0dfb651e39b38fe0bc436ffd2
+abi: bsc/pancakeswap/pancakeStableFactory.json
