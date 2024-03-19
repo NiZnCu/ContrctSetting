@@ -1,6 +1,6 @@
 chain: arbitrum
 protocol: gmx-v2
-strategy: 
+strategy: liquidity_pool
 address: 0x7c68c7866a64fa2160f78eeae12217ffbf871fa8
 abi: arbitrum/gmx-v2/exchangeRouter.json
 
