@@ -1,0 +1,23 @@
+chain: bsc
+protocol: venus
+strategy: 
+address: 0x595e9DDfEbd47B54b996c839Ef3Dd97db3ED19bA
+abi: bsc/venus/VenusLens.json
+
+chain: bsc
+protocol: venus
+strategy: 
+address: 0xfD36E2c2a6789Db23113685031d7F16329158384
+abi: bsc/venus/comptroller.json
+
+chain: bsc
+protocol: venus
+strategy: 
+address: 0x0667eed0a0aab930af74a3dfedd263a73994f216
+abi: bsc/venus/VAIVenusVault.json
+
+chain: bsc
+protocol: venus
+strategy: 
+address: 0x051100480289e704d20e9db4804837068f3f9204
+abi: bsc/venus/XVSVenusVault.json
