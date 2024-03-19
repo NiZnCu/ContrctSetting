@@ -1,0 +1,11 @@
+chain: arbitrum
+protocol: gmx-v1
+strategy: # GMX: Reward Router
+address: 0xA906F338CB21815cBc4Bc87ace9e68c87eF8d8F1
+abi: arbitrum/gmx-v1/gmxRouter.json
+
+chain: arbitrum
+protocol: gmx-v1
+strategy: 
+address: 0x489ee077994B6658eAfA855C308275EAd8097C4A
+abi: arbitrum/gmx-v1/vault.json
