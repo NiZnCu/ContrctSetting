@@ -1,0 +1,17 @@
+chain: polygon
+protocol: aave-v2
+strategy: lending
+address: 0x8dff5e27ea6b7ac08ebfdf9eb090f32ee9a30fcf
+abi: polygon/aave-v2/lendingPool.json
+
+chain: polygon
+protocol: aave-v2
+strategy: 
+address: 0x0d500b1d8e8ef31e21c99d1db9a6444d3adf1270
+abi: polygon/aave-v2/WMATIC.json
+
+chain: polygon
+protocol: aave-v2
+strategy: rewards
+address: 0x357D51124f59836DeD84c8a1730D72B749d8BC23
+abi: polygon/aave-v2/incentiveController.json
