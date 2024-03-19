@@ -1,23 +1,23 @@
 chain: eth
 protocol: lido
-strategy: 
+strategy: staking
 address: 0x889edc2edab5f40e902b864ad4d7ade8e412f9b1
 abi: eth/lido/nftUnstaking.json
 
 chain: eth
 protocol: lido
-strategy: # Liquid staked Ether 2.0
+strategy: staking # Liquid staked Ether 2.0
 address: 0xae7ab96520de3a18e5e111b5eaab095312d7fe84
 abi: eth/lido/stETH.json
 
 chain: eth
 protocol: lido
-strategy: # Wrapped liquid staked Ether 2.0
+strategy: staking # Wrapped liquid staked Ether 2.0
 address: 0x7f39c581f595b53c5cb19bd0b3f8da6c935e2ca0
 abi: eth/lido/wstETH.json
 
 chain: eth
 protocol: lido
-strategy: # Staked MATIC
+strategy: staking # Staked MATIC
 address: 0x9ee91f9f426fa633d227f7a9b000e28b9dfd8599
 abi: eth/lido/stMATIC.json
