@@ -1,23 +1,23 @@
 chain: eth
 protocol: covex
-strategy: 
+strategy: rewards
 address: 0xCF50b810E57Ac33B91dCF525C6ddd9881B139332
 abi: eth/convex/cvxRewardPool.json
 
 chain: eth
 protocol: covex
-strategy: 
+strategy: staking
 address: 0x72a19342e8f1838460ebfccef09f6585e32db86e
 abi: eth/convex/locker.json
 
 chain: eth
 protocol: covex
-strategy: 
+strategy: staking
 address: 0xf403c135812408bfbe8713b5a23a04b3d48aae31
 abi: eth/convex/booster.json
 
 chain: eth
 protocol: covex
-strategy: # Convex Pool Registry
+strategy: rewards # Convex Pool Registry
 address: 0x41a5881c17185383e19Df6FA4EC158a6F4851A69
 abi: eth/convex/fraxRegistry.json
