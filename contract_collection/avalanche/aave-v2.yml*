@@ -1,0 +1,17 @@
+chain: avalanche
+protocol: aave-v2
+strategy: lending
+address: 0x4f01aed16d97e3ab5ab2b501154dc9bb0f1a5a2c
+abi: avalanche/aave-v2/lendingPool.json
+
+chain: avalanche
+protocol: aave-v2
+strategy: 
+address: 0xb31f66aa3c1e785363f0875a1b74e27b85fd66c7
+abi: avalanche/aave-v2/WAVAX.json
+
+chain: avalanche
+protocol: aave-v2
+strategy: rewards
+address: 0x01d83fe6a10d2f2b7af17034343746188272cac9
+abi: avalanche/aave-v2/incentiveController.json
