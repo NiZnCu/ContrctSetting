@@ -1,0 +1,35 @@
+chain: eth
+protocol: benddao
+strategy: 
+address: 0x0d02755a5700414B26FF040e1dE35D337DF56218
+abi: eth/benddao/bend.json
+
+chain: eth
+protocol: benddao
+strategy: staking
+address: 0xd7e97172c2419566839bf80deea46d22b1b2e06e
+abi: eth/benddao/veBend.json
+
+chain: eth
+protocol: benddao
+strategy: rewards
+address: 0xeD1840223484483C0cb050E6fC344d1eBF0778a9
+abi: eth/benddao/bendWeth.json
+
+chain: eth
+protocol: benddao
+strategy: lending
+address: 0x70b97A0da65C15dfb0FFA02aEE6FA36e507C2762
+abi: eth/benddao/lendPool.json
+
+chain: eth
+protocol: benddao
+strategy: nft
+address: 0x79d922DD382E42A156bC0A354861cDBC4F09110d
+abi: eth/benddao/registry.json
+
+chain: eth
+protocol: benddao
+strategy: staking
+address: 0xDAFCe4AcC2703A24F29d1321AdAADF5768F54642
+abi: eth/benddao/apeStaker.json
