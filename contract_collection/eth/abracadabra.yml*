@@ -1,0 +1,23 @@
+chain: eth
+protocol: abracadabra
+strategy: staking # mSpellStaking
+address: 0xbD2fBaf2dc95bD78Cf1cD3c5235B33D1165E6797
+abi: eth/abracadabra/mSPELL.json
+
+chain: eth
+protocol: abracadabra
+strategy: staking # sSpellStaking
+address: 0x26fa3fffb6efe8c1e69103acb4044c26b9a106a9
+abi: eth/abracadabra/sSPELL.json
+
+chain: eth
+protocol: abracadabra
+strategy: # Magic Internet Money
+address: 0x99d8a9c45b2eca8864373a26d1459e3dff1e17f3
+abi: eth/abracadabra/MIM.json
+
+chain: eth
+protocol: abracadabra
+strategy: farming
+address: 0xf43480afe9863da4acbd4419a47d9cc7d25a647f
+abi: eth/abracadabra/masterChef.json
