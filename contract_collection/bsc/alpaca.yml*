@@ -1,0 +1,17 @@
+chain: eth
+protocol: alpaca
+strategy: farming
+address: 0xA625AB01B08ce023B2a342Dbb12a16f2C8489A8F
+abi: eth/alpaca/fairLaunch.json
+
+chain: eth
+protocol: alpaca
+strategy: staking
+address: 0x8f0528ce5ef7b51152a59745befdd91d97091d2f
+abi: eth/alpaca/ALPACA.json
+
+chain: eth
+protocol: alpaca
+strategy: staking
+address: 0xb7d85ab25b9d478961face285fa3d8aaecad24a9
+abi: eth/alpaca/xALPACA.json
