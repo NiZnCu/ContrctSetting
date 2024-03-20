@@ -1,0 +1,29 @@
+chain: eth
+protocol: ipor
+strategy: liquidity_pool
+address: 0x086d4daab14741b195deE65aFF050ba184B65045
+abi: eth/ipor/assets-1.json
+
+chain: eth
+protocol: ipor
+strategy: liquidity_pool
+address: 0xC52569b5A349A7055E9192dBdd271F1Bd8133277
+abi: eth/ipor/assets-2.json
+
+chain: eth
+protocol: ipor
+strategy: liquidity_pool
+address: 0x33C5A44fd6E76Fc2b50a9187CfeaC336A74324AC
+abi: eth/ipor/assets-3.json
+
+chain: eth
+protocol: ipor
+strategy: farming
+address: 0xcc3fc4c9ba7f8b8aa433bc586d390a70560ff366
+abi: eth/ipor/farmer.json
+
+chain: eth
+protocol: ipor
+strategy: staking
+address: 0xd72915b95c37ae1b16b926f85ad61cca6395409f
+abi: eth/ipor/staker.json
