@@ -1,0 +1,35 @@
+chain: eth
+protocol: looksrare
+strategy: 
+address: 0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2
+abi: eth/looksrare/WETH.json
+
+chain: eth
+protocol: looksrare
+strategy: staking # FeeSharingSystem
+address: 0xbcd7254a1d759efa08ec7c3291b2e85c5dcc12ce
+abi: eth/looksrare/stakingV1.json
+
+chain: eth
+protocol: looksrare
+strategy: staking
+address: 0xe7bac7d798d66d353b9e50ebfc6859950fe13ce4
+abi: eth/looksrare/stakingV2.json
+
+chain: eth
+protocol: looksrare
+strategy: # AggregatorFeeSharingWithUniswapV3
+address: 0x3ab16af1315dc6c95f83cbf522fecf98d00fd9ba
+abi: eth/looksrare/compounderV1.json
+
+chain: eth
+protocol: looksrare
+strategy: # AutoCompounder
+address: 0x000000000077Ee1fCFE351dF1Ff22736e995806B
+abi: eth/looksrare/compounderV2.json
+
+chain: eth
+protocol: looksrare
+strategy: farming
+address: 0x2a70e7f51f6cd40c3e9956aa964137668cbfadc5
+abi: eth/looksrare/farmer.json
