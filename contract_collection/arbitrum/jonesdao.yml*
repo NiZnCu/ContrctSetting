@@ -1,0 +1,41 @@
+chain: arbitrum
+protocol: jonesdao
+strategy: 
+address: 0x912CE59144191C1204E64559FE8253a0e49E6548
+abi: arbitrum/jonesdao/ARB.json
+
+chain: arbitrum
+protocol: jonesdao
+strategy: 
+address: 0x10393c20975cF177a3513071bC110f7962CD67da
+abi: arbitrum/jonesdao/JONES.json
+
+chain: arbitrum
+protocol: jonesdao
+strategy: 
+address: 0xe66998533a1992ece9ea99cdf47686f4fc8458e0
+abi: arbitrum/jonesdao/jUSDC.json
+
+chain: arbitrum
+protocol: jonesdao
+strategy: 
+address: 0x7241bc8035b65865156ddb5edef3eb32874a3af6
+abi: arbitrum/jonesdao/rawJGLP.json
+
+chain: arbitrum
+protocol: jonesdao
+strategy: 
+address: 0x0aefad19aa454bcc1b1dd86e18a7d58d0a6fac38
+abi: arbitrum/jonesdao/miniChef.json
+
+chain: arbitrum
+protocol: jonesdao
+strategy: 
+address: 0xb94d1959084081c5a11c460012ab522f5a0fd756
+abi: arbitrum/jonesdao/masterChef.json
+
+chain: arbitrum
+protocol: jonesdao
+strategy: 
+address: 0x489ee077994b6658eafa855c308275ead8097c4a
+abi: arbitrum/jonesdao/vault.json
