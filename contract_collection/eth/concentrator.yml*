@@ -1,0 +1,71 @@
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0xb3ad645db386d7f6d753b2b9c3f4b853da6890b8
+abi: eth/concentrator/CTR.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0xD533a949740bb3306d119CC777fa900bA034cd52
+abi: eth/concentrator/CRV.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0x62B9c7356A2Dc64a1969e19C23e4f579F9810Aa7
+abi: eth/concentrator/cvxCRV.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0xf3a43307dcafa93275993862aae628fcb50dc768
+abi: eth/concentrator/cvxFXS.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0xf43211935c781d5ca1a41d2041f397b8a7366c7a
+abi: eth/concentrator/frxETHCRV.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0x2b95A1Dcc3D405535f9ed33c219ab38E8d7e0884
+abi: eth/concentrator/aCRV.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0xDAF03D70Fe637b91bA6E521A32E1Fb39256d3EC9
+abi: eth/concentrator/aFXS.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0xb15Ad6113264094Fd9BF2238729410A07EBE5ABa
+abi: eth/concentrator/afrxETH.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0xdec800c2b17c9673570fdf54450dc1bd79c8e359
+abi: eth/concentrator/abcCVX.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0x43e54c2e7b3e294de3a155785f52ab49d87b9922
+abi: eth/concentrator/sdCRV.json
+
+chain: eth
+protocol: concentrator
+strategy: 
+address: 0xb0903ab70a7467ee5756074b31ac88aebb8fb777
+abi: eth/concentrator/aCVX.json
+
+chain: eth
+protocol: concentrator
+strategy: # Vote Escrowed CTR
+address: 0xe4C09928d834cd58D233CD77B5af3545484B4968
+abi: eth/concentrator/veCTR.json
