@@ -1,0 +1,29 @@
+chain: arbitrum
+protocol: frax
+strategy: 
+address: 0x90ff2b6b6a2eb3c68d883bc276f6736b1262fa50
+abi: arbitrum/frax/pools-1.json
+
+chain: arbitrum
+protocol: frax
+strategy: 
+address: 0x0bb5a573886bbcecf18590b6cb59e980fac7d278
+abi: arbitrum/frax/pools-2.json
+
+chain: arbitrum
+protocol: frax
+strategy: liquidity_pool
+address: 0x59bf0545fca0e5ad48e13da269facd2e8c886ba4
+abi: arbitrum/frax/VST_FRAX.json
+
+chain: arbitrum
+protocol: frax
+strategy: 
+address: 0x147d0af556c6d89640bfa915d2b9619d7b55947a
+abi: arbitrum/frax/L2D4.json
+
+chain: arbitrum
+protocol: frax
+strategy: 
+address: 0xcde7054e7a232938cdde8bf40faf827e6f377f54
+abi: arbitrum/frax/locker.json
