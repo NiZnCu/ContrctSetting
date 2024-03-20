@@ -1,0 +1,11 @@
+chain: eth
+protocol: blur
+strategy: staking
+address: 0xec2432a227440139ddf1044c3fea7ae03203933e
+abi: eth/blur/staker.json
+
+chain: eth
+protocol: blur
+strategy: nft
+address: 0x0000000000A39bb272e79075ade125fd351887Ac
+abi: eth/blur/blurPool.json
