@@ -1,0 +1,29 @@
+chain: eth
+protocol: dydx
+strategy: 
+address: 0x92d6c1e31e14520e676a687f0a93788b716beff5
+abi: eth/dydx/DYDX.json
+
+chain: eth
+protocol: dydx
+strategy: 
+address: 0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
+abi: eth/dydx/USDC.json
+
+chain: eth
+protocol: dydx
+strategy: staking # dYdX Governance
+address: 0x65f7BA4Ec257AF7c55fd5854E5f6356bBd0fb8EC
+abi: eth/dydx/stkDYDX.json
+
+chain: eth
+protocol: dydx
+strategy: staking
+address: 0x5aa653a076c1dbb47cec8c1b4d152444cad91941
+abi: eth/dydx/stkUSDC.json
+
+chain: eth
+protocol: dydx
+strategy: 
+address: 0x1e0447b19bb6ecfdae1e4ae1694b0c3659614e4e
+abi: eth/dydx/dydxSoloMargin.json
