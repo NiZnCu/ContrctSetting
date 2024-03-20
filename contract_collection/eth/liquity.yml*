@@ -1,0 +1,29 @@
+chain: eth
+protocol: liquity
+strategy: 
+address: 0x66017D22b0f8556afDd19FC67041899Eb65a21bb
+abi: eth/liquity/stabilityPool.json
+
+chain: eth
+protocol: liquity
+strategy: # Use trove manager to retrieve lending/borrowing balances
+address: 0xa39739ef8b0231dbfa0dcda07d7e29faabcf4bb2 
+abi: eth/liquity/troveManager.json
+
+chain: eth
+protocol: liquity
+strategy: staking
+address: 0x4f9Fbb3f1E99B56e0Fe2892e623Ed36A76Fc605d
+abi: eth/liquity/lqtyStaking.json
+
+chain: eth
+protocol: liquity
+strategy: lending
+address: 0x24179CD81c9e782A4096035f7eC97fB8B783e007
+abi: eth/liquity/borrowerOperations.json
+
+chain: eth
+protocol: liquity
+strategy: 
+address: 0x3643bA40B8e2bd8F77233BDB6abe38c218f31bFe
+abi: eth/liquity/instaDappProxy.json
