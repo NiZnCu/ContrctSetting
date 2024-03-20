@@ -1,0 +1,29 @@
+chain: eth
+protocol: ether
+strategy: liquidity_pool
+address: 0x3d320286E014C3e1ce99Af6d6B00f0C1D63E3000
+abi: eth/ether/manager.json
+
+chain: eth
+protocol: ether
+strategy: staking
+address: 0xb49e4420ea6e35f98060cd133842dbea9c27e479
+abi: eth/ether/nodeStaker.json
+
+chain: eth
+protocol: ether
+strategy: staking
+address: 0x7623e9dc0da6ff821ddb9ebaba794054e078f8c4
+abi: eth/ether/staker.json
+
+chain: eth
+protocol: ether
+strategy: liquidity_pool
+address: 0x35fa164735182de50811e8e2e824cfb9b6118ac2
+abi: eth/ether/eETH.json
+
+chain: eth
+protocol: ether
+strategy: liquidity_pool
+address: 0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee
+abi: eth/ether/weETH.json
