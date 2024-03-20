@@ -1,0 +1,29 @@
+chain: arbitrum
+protocol: equilibria
+strategy: 
+address: 0x71e0ce200a10f0bbfb9f924fe466acf0b7401ebf
+abi: arbitrum/equilibria/ePendle.json
+
+chain: arbitrum
+protocol: equilibria
+strategy: 
+address: 0x70f61901658aAFB7aE57dA0C30695cE4417e72b9
+abi: arbitrum/equilibria/locker.json
+
+chain: arbitrum
+protocol: equilibria
+strategy: 
+address: 0x96c4a48abdf781e9c931cfa92ec0167ba219ad8e
+abi: arbitrum/equilibria/xEQB.json
+
+chain: arbitrum
+protocol: equilibria
+strategy: 
+address: 0x4d32c8ff2facc771ec7efc70d6a8468bc30c26bf
+abi: arbitrum/equilibria/masterChef.json
+
+chain: arbitrum
+protocol: equilibria
+strategy: 
+address: 0x1ef5e2153c3e6533af716d057a90b71b8621fa39
+abi: arbitrum/equilibria/vester.json
