@@ -1,0 +1,11 @@
+chain: polygon
+protocol: compound-v3
+strategy: lending
+address: 0xF25212E676D1F7F89Cd72fFEe66158f541246445
+abi: polygon/compound-v3/cUSDCv3.json
+
+chain: polygon
+protocol: compound-v3
+strategy: rewards
+address: 0x45939657d1CA34A8FA39A924B71D28Fe8431e581
+abi: polygon/compound-v3/rewarder.json
