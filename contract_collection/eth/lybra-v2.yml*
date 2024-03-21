@@ -1,0 +1,47 @@
+chain: eth
+protocol: lybra-v2
+strategy: 
+address: 0xa980d4c0C2E48d305b582AA439a3575e3de06f0E
+abi: eth/lybra-v2/vaults-1.json
+
+chain: eth
+protocol: lybra-v2
+strategy: 
+address: 0x5e28B5858DA2C6fb4E449D69EEb5B82e271c45Ce
+abi: eth/lybra-v2/vaults-2.json
+
+chain: eth
+protocol: lybra-v2
+strategy: 
+address: 0xB72dA4A9866B0993b9a7d842E5060716F74BF262
+abi: eth/lybra-v2/vaults-3.json
+
+chain: eth
+protocol: lybra-v2
+strategy: 
+address: 0x090B2787D6798000710a8e821EC6111d254bb958
+abi: eth/lybra-v2/vaults-4.json
+
+chain: eth
+protocol: lybra-v2
+strategy: 
+address: 0xc2966a73bbc53f3c99268ed84d245dbe972ed89e
+abi: eth/lybra-v2/vester.json
+
+chain: eth
+protocol: lybra-v2
+strategy: staking
+address: 0x73b1988a3336208e55275c52fac7f5d3a7dfb89f
+abi: eth/lybra-v2/staker.json
+
+chain: eth
+protocol: lybra-v2
+strategy: farming
+address: 0x19d7cb89e1f92f21d71db34bef4944b9f3344d6e
+abi: eth/lybra-v2/crvFarmer.json
+
+chain: eth
+protocol: lybra-v2
+strategy: farming
+address: 0xec7c6cd15d9bd98fc9805e0509e3bb2033c5956d
+abi: eth/lybra-v2/uniFarmer.json
